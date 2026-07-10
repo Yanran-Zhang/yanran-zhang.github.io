@@ -20,7 +20,6 @@ navbar_title: Home
         {% include widgets/experience_card.html %}
         {% endif %}
 
-        {% include widgets/service_card.html %}
 
         {% if site.data.display.homepage.show_news %}
         {% assign count_news = site.news | size %}
@@ -36,6 +35,8 @@ navbar_title: Home
         publications=pubs
         title='<i class="fas fa-star"></i> Selected Publications'
         %}
+        {% include widgets/service_card.html %}
+
         {% endif %}
     </div>
 </div>
