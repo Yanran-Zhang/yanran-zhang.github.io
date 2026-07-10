@@ -26,8 +26,7 @@ short_bio: >-
   </p>
   <p>
     On the methodological side, I work on diffusion, autoregressive generation, and 3D/4D reconstruction &mdash; with a focus on
-    pretraining and aligning large-scale image generation models and on
-    prompt-enhancement systems.
+    pretraining image generation models and on prompt-enhancement systems.
   </p>
 
 # Portrait is optional. Add your own headshot at assets/images/photos/portrait.jpg and uncomment the two lines below.
