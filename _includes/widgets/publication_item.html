@@ -11,7 +11,7 @@
         <div class="col-md-9 col-xl-10 p-3 pl-md-0">
             <h5 class="mt-0 mb-1 font-weight-normal">{{ item.title }}</h5>
             <p class="mt-0 mb-0 small">{% include widgets/author_list.html authors=item.authors %}</p>
-            <p class="mt-0 mb-0 small">{{item.pub_pre}}<i>{{ item.pub }}</i>{{ item.pub_post }} {{ item.pub_date }} {{ item.pub_last }} <span data-semantic-scholar-id="{{ item.semantic_scholar_id }}"></span></p>
+            <p class="mt-0 mb-0 small">{{item.pub_pre}}<mark><i>{{ item.pub }}</i>{{ item.pub_post }} {{ item.pub_date }}</mark> {{ item.pub_last }} <span data-semantic-scholar-id="{{ item.semantic_scholar_id }}"></span></p>
             <p class="mt-0 mb-0 small text-muted">{{ item.abstract }}</p>
             
             <p class="small pb-0 mb-0 lh-125 text-muted abstract-links">
@@ -41,7 +41,7 @@
             <div>
                 <h5 class="mt-0 mb-1 font-weight-normal">{{ item.title }}</h5>
                 <p class="mt-0 mb-0 small">{% include widgets/author_list.html authors=item.authors %}</p>
-                <p class="mt-0 mb-0 small">{{item.pub_pre}}<i>{{ item.pub }}</i>{{ item.pub_post }} {{ item.pub_date }} {{ item.pub_last }} <span data-semantic-scholar-id="{{ item.semantic_scholar_id }}"></span></p>
+                <p class="mt-0 mb-0 small">{{item.pub_pre}}<mark><i>{{ item.pub }}</i>{{ item.pub_post }} {{ item.pub_date }}</mark> {{ item.pub_last }} <span data-semantic-scholar-id="{{ item.semantic_scholar_id }}"></span></p>
                 <p class="mt-0 mb-0 small text-muted">{{ item.abstract }}</p>
                 
                 <p class="small pb-0 mb-0 lh-125 text-muted abstract-links">
@@ -51,6 +51,12 @@
                     {% else %}
                     <a target="_blank" href="{{ link[1] }}">[{{ link[0] }}]</a>
                     {% endif %}
+                    {%- if link[0] == "Code" and link[1] contains "github.com" -%}
+                    {%- assign gh = link[1] | split: "github.com/" -%}
+                    {%- assign gh_parts = gh[1] | split: "/" -%}
+                    {%- assign gh_repo = gh_parts[0] | append: "/" | append: gh_parts[1] -%}
+                    <a class="github-button align-middle ml-1" href="https://github.com/{{ gh_repo }}" data-icon="octicon-star" data-show-count="true" aria-label="Star {{ gh_repo }}">Star</a>
+                    {%- endif -%}
                     {% endfor %}
                 </p>
             </div>
