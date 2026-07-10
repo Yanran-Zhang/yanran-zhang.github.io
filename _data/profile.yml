@@ -25,9 +25,7 @@ short_bio: >-
     generation &mdash; with a parallel interest in AI-generated content (AIGC) detection and forensics.
   </p>
   <p>
-    On the methodological side, I work on diffusion, autoregressive generation, and 3D/4D reconstruction &mdash; with a focus on
-    pretraining image generation models and on prompt-enhancement systems.
-  </p>
+    On the methodological side, I work on diffusion, autoregressive generation, 3D/4D reconstruction, and pretraining large image generation models</p>
 
 # Portrait is optional. Add your own headshot at assets/images/photos/portrait.jpg and uncomment the two lines below.
 portrait_url: /assets/images/photos/portrait.png
