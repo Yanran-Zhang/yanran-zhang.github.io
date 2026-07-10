@@ -22,4 +22,5 @@ links:
   Paper: https://arxiv.org/abs/2512.15693
   Project: https://joeleelyf.github.io/Skyra/
   Code: https://github.com/JoeLeelyf/Skyra
+  Model: https://huggingface.co/JoeLeelyf/Skyra-SFT
 ---

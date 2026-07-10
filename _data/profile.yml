@@ -14,18 +14,15 @@ github: Zhangyr2022
 # twitter: your_twitter_id  # Do not include the '@' symbol
 linkedin: yanran-zhang-08964138b
 orcid: 0009-0005-7209-9761
-wechat_qrcode: /assets/images/etc/wechat.png
-wechat_prompt: >-
-  <strong>WeChat ID: zyr13440058416</strong> <br/>
-  Please tell me your <strong>name</strong> and <strong>affiliation</strong> when adding me. Thanks!
+wechat: zyr13440058416
 
 short_bio_text_justify: false
 short_bio: >-
   <p>
     I am a Ph.D. student in the <a href="https://www.au.tsinghua.edu.cn/" target="_blank">Department of Automation</a>
     at <a href="https://www.tsinghua.edu.cn/en/" target="_blank">Tsinghua University</a>, advised by Prof. Jiwen Lu.
-    My research centers on <strong>visual generation and multimodal world models</strong> &mdash; video and 4D
-    generation, long-range temporal consistency &mdash; with a parallel interest in AI-generated content (AIGC) detection and forensics.
+    My research centers on <strong>visual generation and multimodal world models</strong> &mdash; image, video, 4D
+    generation &mdash; with a parallel interest in AI-generated content (AIGC) detection and forensics.
   </p>
   <p>
     On the methodological side, I work on diffusion, autoregressive generation, and 3D/4D reconstruction &mdash; with a focus on
@@ -40,10 +37,12 @@ portrait_caption: >-
 
 education:
 - name: Tsinghua University
+  logo: /assets/images/badges/tsinghua.png
   dept: Department of Automation
   position: Ph.D. Student
   date: Sep. 2025 - Present
 - name: Tsinghua University
+  logo: /assets/images/badges/tsinghua.png
   dept: Department of Automation
   position: "B.S. · GPA 3.90/4.00 (top 10%)"
   date: Sep. 2021 - Jun. 2025

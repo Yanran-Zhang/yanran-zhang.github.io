@@ -41,6 +41,13 @@
                         </a>
                     </div>
                 </div>
+                {% if site.data.profile.wechat %}
+                <div class="row small">
+                    <div class="col text-center text-muted">
+                        <i class="fab fa-weixin"></i> WeChat: {{ site.data.profile.wechat }}
+                    </div>
+                </div>
+                {% endif %}
 
                 <div class="row pt-2">
                     <div class="col text-center h4">

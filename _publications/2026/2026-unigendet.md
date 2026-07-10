@@ -22,4 +22,5 @@ links:
   Paper: https://arxiv.org/abs/2604.21904
   Project: https://ivg-yanranzhang.github.io/UniGenDet/
   Code: https://github.com/Zhangyr2022/UniGenDet
+  Model: https://huggingface.co/Yanran21/UniGenDet
 ---

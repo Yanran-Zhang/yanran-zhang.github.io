@@ -21,6 +21,12 @@
                 {% else %}
                 <a target="_blank" href="{{ link[1] }}">[{{ link[0] }}]</a>
                 {% endif %}
+                {%- if link[0] == "Code" and link[1] contains "github.com" -%}
+                {%- assign gh = link[1] | split: "github.com/" -%}
+                {%- assign gh_parts = gh[1] | split: "/" -%}
+                {%- assign gh_repo = gh_parts[0] | append: "/" | append: gh_parts[1] -%}
+                <a class="github-button align-middle ml-1" href="https://github.com/{{ gh_repo }}" data-icon="octicon-star" data-show-count="true" aria-label="Star {{ gh_repo }}">Star</a>
+                {%- endif -%}
                 {% endfor %}
             </p>
 
