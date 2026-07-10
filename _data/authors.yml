@@ -1,22 +1,37 @@
-"Your Name":
+# Author display rules used by _includes/widgets/author_list.html
+#   bold: true  -> bold the name (use for yourself)
+#   url: ...    -> wrap the name in a link (only add links you have verified)
+
+"Yanran Zhang":
   bold: true
+  url: https://yanran-zhang.github.io/
 
-"Robert White":
-  url: https://www.google.com/?q=Robert+White
+"Yifei Li":
+  url: https://joeleelyf.github.io/
 
-"Charles Green (MIT)":
-  name: Charles Green
-  url: https://www.google.com/?q=Charles+Green+MIT
+"Ziyi Wang":
+  url: https://wangzy22.github.io/
 
-"Charles Green (Stanford)":
-  name: Charles Green
-  url: https://www.google.com/?q=Charles+Green+Stanford
+"Wenzhao Zheng":
+  url: https://wzzheng.net/
 
-"Garrett Harris":
-  url: https://www.google.com/?q=Garrett+Harris
+"Zheng Zhu":
+  url: http://www.zhengzhu.net/
 
-"James Wang":
-  url: https://www.google.com/?q=James+Wang
+"Bingyao Yu":
+  url: https://yuby14.github.io/
 
-"John Doe":
-  url: https://www.google.com/?q=John+Doe
+"Yu Zheng":
+  url: https://yzheng97.github.io/
+
+"Yueqi Duan":
+  url: https://scholar.google.com/citations?user=qDseo3cAAAAJ&hl=zh-CN
+
+"Lei Chen":
+  url: https://scholar.google.com/citations?user=8bMh-FQAAAAJ&hl=zh-CN&oi=sra
+
+"Jie Zhou":
+  url: https://scholar.google.com/citations?user=6a79aPwAAAAJ&hl=en
+
+"Jiwen Lu":
+  url: https://ivg.au.tsinghua.edu.cn/Jiwen_Lu/
