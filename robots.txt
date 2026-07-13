@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://yanran-zhang.github.io/sitemap.xml

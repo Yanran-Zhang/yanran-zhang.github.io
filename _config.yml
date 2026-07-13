@@ -14,6 +14,13 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 baseurl: "" # the subpath of your site. For a "<username>.github.io" site, keep this empty.
+url: "https://yanran-zhang.github.io" # the base hostname & protocol, used for canonical/OG/sitemap
+title: "Yanran Zhang"
+author: "Yanran Zhang"
+description: >-
+  Yanran Zhang is a Ph.D. student in the Department of Automation at Tsinghua University,
+  working on visual generation, multimodal world models, video/4D generation, and
+  AI-generated content (AIGC) detection.
 
 # Build settings
 markdown: kramdown
